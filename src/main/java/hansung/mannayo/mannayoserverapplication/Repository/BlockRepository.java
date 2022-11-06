@@ -12,4 +12,5 @@ public interface BlockRepository extends JpaRepository<Block,Long> {
 
     Optional<List<Block>> findByMember_Id(Long id);
 
+    findBy
 }

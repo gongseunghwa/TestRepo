@@ -10,4 +10,6 @@ public interface JjimRepository extends JpaRepository<Jjim, Long> {
 
     Optional<List<Jjim>> findByMember_Id(Long id);
 
+
+
 }
